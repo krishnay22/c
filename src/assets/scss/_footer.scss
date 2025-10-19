@@ -1,0 +1,92 @@
+.footer-sa {
+  background-color: #18191b;
+  .call-action {
+    h2 {
+      font-size: 100px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 1;
+      position: relative;
+
+      .buton {
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        background: #c497fe;
+        position: absolute;
+        top: -80px;
+        right: 8%;
+        font-size: 32px;
+        color: #212121;
+
+        img {
+          width: 30px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    width: 160px;
+  }
+
+  .contact-info {
+    .item {
+      margin-bottom: 50px;
+
+      span {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+    }
+
+    .social-icon {
+      a {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        font-size: 14px;
+        transition: all 0.4s;
+
+        &:hover {
+          border-color: #fff;
+        }
+      }
+    }
+  }
+
+  .sub-footer {
+    background: rgb(2, 43, 112);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 43, 112, 1) 0%,
+      rgba(29, 20, 42, 1) 100%
+    );
+  
+    .copy {
+      p {
+        font-size: 14px;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+
+    .links {
+      width: 100%;
+
+      a {
+        font-size: 14px;
+      }
+
+      .active {
+        color: #fff;
+      }
+    }
+  }
+}

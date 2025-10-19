@@ -1,0 +1,1926 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="keywords"
+      content="Crewnox Cnox Design Marketing Branding"
+    />
+    <meta
+      name="description"
+      content="Crewnox - Crewnox Innovation Labs"
+    />
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>About Us</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../assets/imgs/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Six+Caps&display=swap" rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../common/css/plugins.css">
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="../common/css/common_style.css">
+    <link rel="stylesheet" href="assets/css/inner_pages.css">
+<style>
+     /* Marquee Wrapper */
+        .marquee-wrapper {
+            overflow: hidden;
+            position: relative;
+           
+            padding: 40px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            border-radius: 10px;
+        }
+
+        .marquee-wrapper::before,
+        .marquee-wrapper::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100px;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .marquee-wrapper::before {
+            left: 0;
+           
+        }
+
+        .marquee-wrapper::after {
+            right: 0;
+           
+        }
+
+        /* Marquee Animation */
+        .marquee-container {
+          
+  display: flex;
+  width: max-content;
+  
+
+            animation: scroll 20s linear infinite;
+        }
+
+        .marquee-container:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+           
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Keep your original row structure */
+       .marquee-container .row {
+            display: flex;
+            flex-wrap: nowrap;
+           margin-left: 20px;
+            gap: 20px;
+        }
+
+        .sm-marg {
+            margin: 0 -15px;
+        }
+
+        .col-lg, .col-md-4, .col-6 {
+            flex-shrink: 0;
+            padding: 0 40px;
+            min-width: 250px;
+        }
+
+       
+
+        .item {
+           
+            transition: transform 0.3s ease;
+        }
+
+        .item:hover {
+            transform: scale(1.1);
+        }
+
+
+     
+     .marquee-container .img{
+            height: 100px;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .marquee-container .img img {
+            max-width: 160px;
+            min-width: 160px;
+            width: 100%;
+            height: auto;
+          
+            transition: all 0.3s ease;
+        }
+/* --- Modal Overlay --- */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.85); /* dark overlay */
+  backdrop-filter: blur(4px);
+  animation: fadeIn 0.3s ease forwards;
+}
+
+/* --- Modal Content Box --- */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 800px;
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  animation: scaleUp 0.3s ease;
+}
+
+/* --- Close Button --- */
+.close {
+  position: absolute;
+  top: -35px;
+  right: -35px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close:hover {
+  transform: scale(1.2);
+  color: grey;
+}
+
+/* --- Video / Iframe Responsive --- */
+.modal-content video,
+.modal-content iframe {
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  background: #000;
+}
+
+/* --- Responsive for Mobile --- */
+@media (max-width: 768px) {
+  .modal-content video,
+  .modal-content iframe {
+    height: 250px;
+  }
+  .close {
+  position: absolute;
+  top: -38px;
+  right: 0px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+}
+
+
+/* --- Animations --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+      @media(max-width:992px){
+        .img {
+            margin: 0 !important;
+         }
+         
+         .col-lg, .col-md-4, .col-6{
+            max-width:240px;
+         }
+      }
+
+        @media (max-width: 768px) {
+            .marquee-container {
+                animation-duration: 15s;
+            }
+        }
+
+        @media(max-width:475px){
+            .services-dm .item .icon{
+                margin-left: 0px !important;
+            }
+            .title h2{
+                font-size: 48px !important;
+            }
+         
+        }
+       
+
+</style>
+</head>
+
+<body>
+
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-text">
+                <span>C</span>
+                <span>R</span>
+                <span>E</span>
+                <span>W</span>
+                <span>N</span>
+                <span>O</span>
+                <span>X</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <div class="cursor"></div>
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+   <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <a class="logo scroll" href="../index.html">
+          <img src="../src/assets/imgs/CNOX.svg" alt="logo" />
+        </a>
+
+        <!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html" target="_blank">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="services.html" target="_blank">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html" target="_blank">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" target="_blank">Blogs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="topnav d-flex align-items-center">
+          <a href="contact.html" target="_blank" class="butn butn-rounded">
+            <div class="d-flex align-items-center content ">
+              <span>Let's Discuss Your Project</span>
+              <span class="icon ml-10">
+                <img src="../common/imgs/icons/arrow-top-right.svg" alt="" />
+              </span>
+            </div>
+          </a>
+          <div class="menu-icon cursor-pointer menu-toggle">
+            <span class="icon ti-align-right"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+     <div class="hamenu">
+      <div class="close-menu cursor-pointer ti-close"></div>
+      <div class="container-fluid rest d-flex">
+        <div class="menu-links">
+          <ul class="main-menu rest">
+            <li>
+              <div class="o-hidden">
+                <a href="../index.html" class="link">
+                  <span class="fill-text" data-text="Home">Home</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="o-hidden">
+                <a href="portfolio.html" class="link">
+                  <span class="fill-text" data-text="Portfolio">Portfolio</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="o-hidden">
+              
+                  <a href="services.html" class="link"
+                    ><span class="fill-text" data-text="Services">
+                      Services
+                    </span>
+                  </a>
+                
+              </div>
+            </li>
+
+            <li>
+              <div class="o-hidden">
+                <a href="about.html" class="link">
+                  <span class="fill-text" data-text="About Us">About Us</span>
+                </a>
+              </div>
+              <div class="o-hidden">
+                <a href="blog.html" class="link">
+                  <span class="fill-text" data-text="Blogs">Blogs</span>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="o-hidden">
+                <a href="contact.html" class="link">
+                  <span class="fill-text"
+                  data-text="Contact Us"  >Contact Us</span
+                  >
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+     
+      </div>
+    </div>
+
+    <!-- ==================== End Navbar ==================== -->
+
+    <div id="smooth-wrapper">
+
+
+        <div id="smooth-content">
+
+            <main>
+
+
+
+                <!-- ==================== Start Header ==================== -->
+
+                <header class="about-hed section-padding pb-0">
+                    <div class="container">
+                        <div class="caption mb-80">
+                            <h1 class="sec-head"><span class="sub-head mr-30">About Us</span> Expert web designers trained in the digital industry.</h1>
+                            <div class="row justify-content-end">
+                                <div class="col-lg-5">
+                                    <div class="text mt-30">
+                                        <p>We’re CrewNox—a bunch of creatives, strategists, and digital ninjas who live and breathe creativity.
+
+                                            Our mission? To elevate brands, make waves, and create a lasting buzz in a digital world that never stops moving. We believe in the power of storytelling, the impact of design, and the importance of doing things differently—because blending in is for everyone else.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="main-marq shadow-off">
+                            <div class="slide-har st1">
+                                <div class="box">
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="box">
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                    <div class="item">
+                                        <h2><span>About Us</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fit-img radius-15">
+                            <img src="assets/imgs/about/about-1.jpg" alt="">
+                        </div>
+                    </div>
+                </header>
+
+                <!-- ==================== End Header ==================== -->
+
+
+
+                <!-- ==================== Start Services ==================== -->
+
+                <section class="services-dm container-fluid">
+                    <div class="box sub-bg radius-30 section-padding mt-15">
+                        <div class="container">
+                            <div class="sec-head mb-100">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <h6 class="sub-head">Our Service Expertise</h6>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <h3 class="text-indent md-mb30">Digital Solutions to Propel Your Brand Forward</h3>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="text">
+                                            <p>At Crewnox Innovation Labs, we specialize in transforming businesses through cutting-edge digital strategies. </p>
+                                            <a href="services.html" class="crv-butn mt-40">
+                                                <div class="d-flex">
+                                                    <span class="text">Learn More</span>
+                                                    <span class="icon">
+                                                        <img src="../common/imgs/icons/arrow-top-right.svg" alt="">
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-end">
+                                <div class="col-lg-9">
+                                    
+                                    <div class="item d-flex align-items-center">
+                                        <div class="title">
+                                            <h2>UX & UI</h2>
+                                        </div>
+                                        <div class="text ml-auto">
+                                            <div class="d-flex align-items-center">
+                                                <p>User-Centric Design, Intuitive Interface, <br>AI Powered Insights</p>
+                                                <div>
+                                                    <div class="icon invert">
+                                                        <img src="../common/imgs/icons/bezier-curve-solid.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item d-flex align-items-center">
+                                        <div class="title">
+                                            <h2>Branding</h2>
+                                        </div>
+                                        <div class="text ml-auto">
+                                            <div class="d-flex align-items-center">
+                                                <p>Brand Identity Creation, Visual storytelling, <br>Digital-First Branding</p>
+                                                <div>
+                                                    <div class="icon invert">
+                                                        <img src="../common/imgs/icons/star.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item d-flex align-items-center">
+                                        <div class="title">
+                                            <h2>Marketing</h2>
+                                        </div>
+                                        <div class="text ml-auto">
+                                            <div class="d-flex align-items-center">
+                                                <p>AI Driven Digital Marketing,<br> Data- Driven Advertising, Performance Marketing</p>
+                                                <div>
+                                                    <div class="icon invert">
+                                                        <img src="../common/imgs/icons/crown-solid.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item d-flex align-items-center">
+                                        <div class="title">
+                                            <h2>Consulting</h2>
+                                        </div>
+                                        <div class="text ml-auto">
+                                            <div class="d-flex align-items-center">
+                                                <p>Scalable Web development <br> Full Stack-solutions, Smart Automation</p>
+                                                <div>
+                                                    <div class="icon invert">
+                                                        <img src="../common/imgs/icons/chart-line-solid.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item d-flex align-items-center">
+                                        <div class="title">
+                                            <h2>Development</h2>
+                                        </div>
+                                        <div class="text ml-auto">
+                                            <div class="d-flex align-items-center">
+                                                <p>Data-Driven Decision Making,<br>Business strategies </p>
+                                                <div>
+                                                    <div class="icon invert">
+                                                        <img src="../common/imgs/icons/code-solid.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End Services ==================== -->
+
+
+
+                <!-- ==================== Start Intro ==================== -->
+
+                <section class="intro-iner section-padding">
+                    <div class="container">
+                        <div class="row justify-content-around">
+                            <div class="col-lg-5">
+                                <div class="img-box">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/about/about-2.jpg" alt="">
+                                    </div>
+                                    <div class="states">
+                                        <h2 class="mb-10 fw-600">50+</h2>
+                                        <span class="text-u fz-12 fw-500">Satisfaction <br> Clients</span>
+                                    </div>
+                                    <div class="just-shape">
+                                        <div class="shap-right-top">
+                                            <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                class="w-11 h-11">
+                                                <path
+                                                    d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                    fill="#0e0f11"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="shap-left-bottom">
+                                            <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                class="w-11 h-11">
+                                                <path
+                                                    d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                    fill="#0e0f11"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="butn-vid d-flex align-items-center">
+                                        <div class="play-button">
+                                            <a href="assets/imgs/about/about-video.mp4" class="vid" data-type="local">
+                                                <i class="fas fa-play"></i>
+                                            </a>
+                                        </div>
+                                        <div class="cont">
+                                            <span>Let's see <br> how we did it.</span>
+                                        </div>
+                                        <div class="shaps bottom">
+                                            <div class="shap-right-top">
+                                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    class="w-11 h-11">
+                                                    <path
+                                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                        fill="#0e0f11"></path>
+                                                </svg>
+                                            </div>
+                                            <div class="shap-left-bottom">
+                                                <svg viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                                    class="w-11 h-11">
+                                                    <path
+                                                        d="M11 1.54972e-06L0 0L2.38419e-07 11C1.65973e-07 4.92487 4.92487 1.62217e-06 11 1.54972e-06Z"
+                                                        fill="#0e0f11"></path>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="sec-head mb-60">
+                                    <h6 class="sub-head mb-10">Who we are?</h6>
+                                    <h3>Innovative Strategies. Visionary Design. Global Impact.</h3>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-10">
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="accordion-item active">
+                                                <h4 class="accordion-header" id="heading2">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapse2"
+                                                        aria-expanded="false" aria-controls="collapse2">
+                                                        What’s Our mission?
+                                                    </button>
+                                                </h4>
+                                                <div id="collapse2" class="accordion-collapse collapse show"
+                                                    aria-labelledby="heading2" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <p>We’re here to empower businesses with innovative digital solutions that drive growth. Our mission is to deliver high-quality designs and strategies that help you achieve your goals swiftly and effectively.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                                <h4 class="accordion-header" id="heading3">
+                                                    <button class="accordion-button collapsed" type="button"
+                                                        data-bs-toggle="collapse" data-bs-target="#collapse3"
+                                                        aria-expanded="false" aria-controls="collapse3">
+                                                        Our Culture & Our Studio
+                                                    </button>
+                                                </h4>
+                                                <div id="collapse3" class="accordion-collapse collapse"
+                                                    aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <p>At Crewnox, we value creativity, collaboration, and flexibility. Our team works with a focus on delivering high-quality results, with the freedom to manage their time and complete projects at their best pace. This flexible approach fosters innovation and ensures we consistently meet client expectations.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content" data-tp-throwable-scene="true">
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="">
+                                    <span>SEO/Marketing</span>
+                                </div>
+                            </div>
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="">
+                                    <span class="bdark">Motion</span>
+                                </div>
+                            </div>
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="icon1">
+                                    <img src="assets/imgs/about/s-icon1.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="">
+                                    <span class="bred">UI/UX Design</span>
+                                </div>
+                            </div>
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="">
+                                    <img src="assets/imgs/about/s-icon2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="item" data-tp-throwable-el="">
+                                <div class="">
+                                    <span>Branding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                       
+                </section>
+
+                <!-- ==================== End Intro ==================== -->
+
+
+
+                <!-- ==================== Start Team ==================== -->
+
+                <!-- <div class="team-mp">
+                    <div class="container section-padding bord-thin-top-light">
+                        <div class="sec-head mb-80">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <h6 class="sub-head">Team’s Leaders</h6>
+                                </div>
+                                <div class="col-lg-4 d-flex align-items-center">
+                                    <div class="ml-auto">
+                                        <p>Each products built by passionate hearts. It’s our
+                                            team!, meet our leader</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-10">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/about/team/1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <h2>Jurgen Klopp</h2>
+                                    <span>CEO Founder</span>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="social-icon">
+                                        <a href="#0">
+                                            <i class="fa-brands fa-x-twitter"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-dribbble"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-behance"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-10">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/about/team/2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <h2>Rahat Chowhury</h2>
+                                    <span>CTO & Product Management</span>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="social-icon">
+                                        <a href="#0">
+                                            <i class="fa-brands fa-x-twitter"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mb-10">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/about/team/3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <h2>Luke Van de Berg</h2>
+                                    <span>Marketing Director</span>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="social-icon">
+                                        <a href="#0">
+                                            <i class="fa-brands fa-x-twitter"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-dribbble"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-behance"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="d-flex">
+                                <div>
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/about/team/4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="cont">
+                                    <h2>Logan Dang</h2>
+                                    <span>Creative Director</span>
+                                </div>
+                                <div class="ml-auto">
+                                    <div class="social-icon">
+                                        <a href="#0">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-dribbble"></i>
+                                        </a>
+                                        <a href="#0">
+                                            <i class="fa-brands fa-behance"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <section class="team-pg section-padding pb-100">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/prashant.png" alt="">
+                                        <div class="social-icon">
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/prashantk794/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Prashant Kumar</h6>
+                                        <p>Advisor</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/krati.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/krativyas/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Krati Vyas</h6>
+                                        <p>Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/sakina.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/sakina-ali-a094b1208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Sakina Ali </h6>
+                                        <p>UI/UX Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/Garima.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/garima-bansal-115484202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Garima Bansal</h6>
+                                        <p>Quality Analyst & Operationsr</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/raman.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/raman-sikarwar/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Raman Sikarwar</h6>
+                                        <p>Motion Graphics Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                      
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/Mahima.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/mahima-raj/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Mahima Raj</h6>
+                                        <p>Visual Design Trainee</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/avatar6.jpg" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/rohit-kumar-101a1a316/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Rohit Kumar</h6>
+                                        <p>Ux Design Trainee</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/depali.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/dipali-kumari/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Dipali kumari</h6>
+                                        <p>UI/UX Design Trainee</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/avatar6.jpg" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/sonu-dabi/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Sonu Dabi</h6>
+                                        <p>Video Editing Trainee
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/muskan.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/muskanagrawal2110/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Muskan Agrawal</h6>
+                                        <p>Web Development Trainee</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/akshay.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/ak0701 " target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Akshay Kumravat</h6>
+                                        <p>Software Development Executive</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/shubham.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/shubham-yadav-2670b5240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Shubham Yadav</h6>
+                                        <p>React Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/Prattush.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/prattsss/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Prattush Vyas</h6>
+                                        <p>Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/roshan.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/Roshanbhadauriya/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Roshan Singh Bhadauriya</h6>
+                                        <p>Front-end Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/pinkush.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/pinkush-gole-1a5a7b238/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Pinkush Gole</h6>
+                                        <p>Jr.Python Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="item mb-40">
+                                    <div class="img fit-img">
+                                        <img src="assets/imgs/team/abhishek.png" alt="">
+                                        <div class="social-icon"> -->
+                                            <!-- <a href="#0">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                            <a href="#0">
+                                                <i class="fa-brands fa-dribbble"></i>
+                                            </a> -->
+                                            <!-- <a href="https://www.linkedin.com/in/workwithabhishekgautam/" target="_blank">
+                                                <i class="fa-brands fa-linkedin-in"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cont text-center">
+                                        <h6>Abhishek Gautam</h6>
+                                        <p>Python Trainee</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+                <!-- ==================== End Team ==================== -->
+
+             
+                <!-- ==================== Start dark box ==================== -->
+                <section class="container-fluid">
+
+                    <div class="section-padding sub-bg radius-30" style="padding-top:10px; padding-bottom: 70px;">
+
+
+                        <!-- ==================== Start Testimonials ==================== -->
+
+                        <!-- <div class="testimonials-ds">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                        <div class="qoute-icon md-mb50">
+                                            <div class="text">
+                                                <img src="assets/imgs/about/testim/Vector_Cricle_Text.svg" alt="">
+                                            </div>
+                                            <div class="icon">
+                                                <img src="assets/imgs/about/testim/vector_quote.svg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="swiper testim-swiper swiper-container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="text">
+                                                            <h4>“Hubfolio studio ability to create a high quality UI is
+                                                                stands out. It’s something we placed a premium on. A
+                                                                studio
+                                                                with passionate, professional, fun and full creativity.
+                                                                Recommend!.”</h4>
+                                                        </div>
+                                                        <div
+                                                            class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                            <div>
+                                                                <div class="img-author">
+                                                                    <img src="assets/imgs/about/testim/avatar1.jpg"
+                                                                        alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <span>Bradley Gordon</span>
+                                                                <p>CEO & Founder, Archin Studio</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="text">
+                                                            <h4>“Hubfolio studio ability to create a high quality UI is
+                                                                stands out. It’s something we placed a premium on. A
+                                                                studio
+                                                                with passionate, professional, fun and full creativity.
+                                                                Recommend!.”</h4>
+                                                        </div>
+                                                        <div
+                                                            class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                            <div>
+                                                                <div class="img-author">
+                                                                    <img src="assets/imgs/about/testim/avatar2.jpg"
+                                                                        alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <span>Bradley Gordon</span>
+                                                                <p>CEO & Founder, Archin Studio</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item">
+                                                        <div class="text">
+                                                            <h4>“Hubfolio studio ability to create a high quality UI is
+                                                                stands out. It’s something we placed a premium on. A
+                                                                studio
+                                                                with passionate, professional, fun and full creativity.
+                                                                Recommend!.”</h4>
+                                                        </div>
+                                                        <div
+                                                            class="info d-flex align-items-center mt-40 pt-30 bord-thin-top-light">
+                                                            <div>
+                                                                <div class="img-author">
+                                                                    <img src="assets/imgs/about/testim/avatar3.jpg"
+                                                                        alt="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="info-text">
+                                                                <span>Bradley Gordon</span>
+                                                                <p>CEO & Founder, Archin Studio</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <!-- ==================== End Testimonials ==================== -->
+
+                        
+
+                        <!-- ==================== Start clients ==================== -->
+
+                        <div class="clients-ds mt-100">
+                            <div class="container">
+                                <div class="sec-head mb-80">
+                                    <h6 class="sub-head">Partnered with 80+ Clients</h6>
+                                </div>
+                                        <div class="marquee-wrapper">
+            <div class="marquee-container">
+                <!-- Original row - First set -->
+                <div class="row sm-marg">
+                    <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/meinstein.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/acadamicae.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                       <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Helloteacher.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                   
+                       <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Coding-shark.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/tiffs.png" alt="" height="100px !important">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Zeroteq.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/musolicc.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/navex logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                       <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/invoiq.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/teledigital.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/mcchl.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Duplicate row for seamless loop -->
+                <div class="row sm-marg">
+                    <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/meinstein.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/acadamicae.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6 sm-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Helloteacher.png" alt="" height="80px">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 sm-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Coding-shark.png" alt="" height="80px">
+                            </div>
+                        </div>
+                    </div>
+
+                   <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/tiffs.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/Zeroteq.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/musolicc.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/navex logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/invoiq.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/teledigital.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <div class="col-lg col-md-4 col-6 md-mb30">
+                        <div class="item d-flex align-items-center justify-content-center">
+                            <div class="img">
+                                <img src="assets/imgs/about/clients/mcchl.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        
+
+                        <!-- ==================== End clients ==================== -->
+
+                    </div>
+
+                </section>
+
+                <!-- ==================== End dark box ==================== -->
+                <div class="testimonials-mp section-padding">
+                    <div class="container-fluid">
+                      <div class="swiper testim-swiper swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="item colorful">
+                              <div>
+                                <h6>
+                                  "Crewnox has transformed our web design experience.
+                                  Their impactful designs with timely team delivers
+                                  minimal yet communication.” execution and seamless
+                                </h6>
+                              </div>
+                              <div class="info d-flex align-items-center mt-60">
+                                <div class="info-text">
+                                  <p>SEO Expert, Surat</p>
+                                  <span>Mr.Saurav Agrawal</span>
+                                </div>
+                                <!-- <div class="ml-auto">
+                                  <div class="img-author fit-img">
+                                    <img src="assets/imgs/testim/avatar2.jpg" alt="" />
+                                  </div>
+                                </div>-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item darklen">
+                              <div>
+                                <h6>
+                                  "I highly recommend the Crewnox team for their
+                                  expertise in interaction design, user research, and
+                                  data analysis. Their attention to detail and ability
+                                  to integrate data-driven insights into usability
+                                  solutions is outstanding."
+                                </h6>
+                              </div>
+                              <div class="info d-flex align-items-center mt-60">
+                                <div class="info-text">
+                                  <p>Happy Client</p>
+                                  <span>Mumbai</span>
+                                </div>
+                                <!--  <div class="ml-auto">
+                                  <div class="img-author fit-img">
+                                    <img src="assets/imgs/testim/avatar3.jpg" alt="" />
+                                  </div>
+                                </div> -->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item lighten">
+                              <div>
+                                <h6>
+                                  "The cnox team truly amplified our product through
+                                  their expert use of ux design."
+                                </h6>
+                              </div>
+                              <div class="info d-flex align-items-center mt-60">
+                                <div class="info-text">
+                                  <p>Founder,Atpace</p>
+                                  <span>Mr. Ravi</span>
+                                </div>
+                                <!--  <div class="ml-auto">
+                                  <div class="img-author fit-img">
+                                    <img src="assets/imgs/testim/avatar4.jpg" alt="" />
+                                  </div>
+                                </div>-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item gray">
+                              <div>
+                                <h6>
+                                  "Crewnox transformed our product vision into reality
+                                  with seamless execution and unmatched innovation.
+                                  Their development expertise brought our ideas to life,
+                                  exceeding all expectations."
+                                </h6>
+                              </div>
+                              <div class="info d-flex align-items-center mt-60">
+                                <div class="info-text">
+                                  <p>CEO & Founder, mEinstein</p>
+                                  <span>Mr. Prithwi Thakuria</span>
+                                </div>
+                                <!--- <div class="ml-auto">
+                                  <div class="img-author fit-img">
+                                    <img src="assets/imgs/testim/avatar1.jpg" alt="" />
+                                  </div>
+                                </div>-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="item colorful">
+                              <div>
+                                <h6>
+                                  "I've had the pleasure of working with cnox team on
+                                  multiple projects, and the impact they always bring is
+                                  exceptional. As a UI designers, they creates stunning,
+                                  user-friendly interfaces. Good leadership skills
+                                  foster creativity and collaboration within teams."
+                                </h6>
+                              </div>
+                              <div class="info d-flex align-items-center mt-60">
+                                <div class="info-text">
+                                  <p>Marketing Head, Telenet, Nepal</p>
+                                  <span>Mr. Nikhil Kheradi</span>
+                                </div>
+                                <!-- <div class="ml-auto">
+                                  <div class="img-author fit-img">
+                                    <img src="assets/imgs/testim/avatar2.jpg" alt="" />
+                                  </div>
+                                </div> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <span class="brush">
+                      <img src="src/assets/imgs/header/brush.svg" alt="" />
+                    </span>
+                  </div>
+
+
+            </main>
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+            <footer class="footer-sa">
+                <div class="container section-padding">
+                  <div class="call-action text-center mb-80">
+                    <h2 class="">
+                      <a href="#0"
+                        >Let's Make <br />
+                        Something Great!</a
+                      >
+    
+                      <div
+                        class="buton d-flex align-items-center justify-content-center"
+                      >
+                        <a href="contact.html">
+                          <span class="mb-10">Contact</span> <br />
+                          <span
+                            >Us
+                            <img
+                              src="common/imgs/icons/arrow-top-right.svg"
+                              alt=""
+                          /></span>
+                        </a>
+                      </div>
+                    </h2>
+                  </div>
+                  <div class="contact-info">
+                    <div class="row">
+                      <div class="col-lg-5">
+                        <a href="../index.html" class="logo md-mb50">
+                          <img src="assets/imgs/CNOX.svg" alt="" />
+                          <img
+                            src="assets/imgs/CrewnoxInnovationLabs(1).svg"
+                            alt=""
+                          />
+                        </a>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="item">
+                              <span class="sub-color">location</span>
+                              <p>Proudly Indian’s, Working Remotely</p>
+                            </div>
+                          </div>
+                          <div
+                            class="col-md-6 d-flex justify-content-end justify-end"
+                          >
+                            <div class="item">
+                              <span class="sub-color">inquiry</span>
+                              <p>crewnoxlabs@gmail.com</p>
+                              <p>+91 8077 096 717</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 offset-lg-5">
+                        <div class="social-icon">
+                          <a
+                            href=" https://www.linkedin.com/company/crewnox"
+                            target="_blank" style="padding-top: 0;"
+                          >
+                            <i class="fa-brands fa-linkedin-in"></i>
+                          </a>
+                          <a
+                            href=" https://www.instagram.com/crewnoxlabs/"
+                            target="_blank"style="padding-top: 0"
+                          >
+                            <i class="fa-brands fa-instagram"></i>
+                          </a>
+                          <a
+                            href=" https://www.facebook.com/crewnoxlabs/"
+                            target="_blank" style="padding-top: 0"
+                          >
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </a>
+                          <a href="http://www.youtube.com/@Crewnox" target="_blank" style="padding-top: 0">
+                            <i class="fa-brands fa-youtube"></i>
+                          </a>
+                          <a
+                            href="https://medium.com/@crewnoxmedia"
+                            target="_blank" style="padding-top: 0"
+                          >
+                            <i class="fa-brands fa-medium"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sub-footer">
+                  <div class="container bord-thin-top-light pt-30 pb-50">
+                    <div class="row">
+                      <div class="col-lg-8">
+                        <div class="copy sub-color md-mb30">
+                          <p>
+                            © 2024 <a href="../index.html">Crewnox Innovation Labs</a> All
+                            Right Reserved
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 d-flex justify-content-end">
+                        <div class="links sub-color d-flex justify-content-between">
+                      <a href="../index.html">Home</a>
+                      <a href="portfolio.html" target="_blank" >Portfolio</a>
+                      <a href="casestudies.html" target="_blank">Case Studies</a>
+                      <a href="services.html" target="_blank">Services</a>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+
+            <!-- ==================== End Footer ==================== -->
+
+
+        </div>
+
+    </div>
+
+
+    <div id="video-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <!-- Replace iframe with video tag -->
+    <video id="local-video" width="100%" controls style="display:none;">
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <iframe id="youtube-frame" width="560" height="315" frameborder="0" allowfullscreen style="display:none;"></iframe>
+  </div>
+</div>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("video-modal");
+  const closeBtn = document.querySelector(".close");
+  const localVideo = document.getElementById("local-video");
+  const youtubeFrame = document.getElementById("youtube-frame");
+
+  document.querySelectorAll(".vid").forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const href = this.getAttribute("href");
+      const type = this.dataset.type;
+
+      modal.style.display = "flex";
+
+      if (type === "local") {
+        // Local video
+      
+        localVideo.style.display = "block";
+        localVideo.querySelector("source").src = href;
+        localVideo.load();
+        localVideo.play();
+      } else {
+        // YouTube video
+        localVideo.style.display = "none";
+        youtubeFrame.style.display = "block";
+        youtubeFrame.src = href.replace("watch?v=", "embed/") + "?autoplay=1";
+      }
+    });
+  });
+
+  closeBtn.addEventListener("click", function () {
+    modal.style.display = "none";
+    youtubeFrame.src = "";
+    localVideo.pause();
+  });
+
+  window.addEventListener("click", function (e) {
+    if (e.target == modal) {
+      modal.style.display = "none";
+      youtubeFrame.src = "";
+      localVideo.pause();
+    }
+  });
+});
+</script>
+
+
+
+    <!-- jQuery -->
+    <script src="../common/js/lib/jquery-3.6.0.min.js"></script>
+    <script src="../common/js/lib/jquery-migrate-3.4.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="../common/js/lib/plugins.js"></script>
+
+    <!-- GSAP -->
+    <script src="../common/js/gsap_lib/gsap.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="../common/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script src="../common/js/gsap_lib/SplitText.min.js"></script>
+    <script src="../common/js/gsap_lib/matter.js"></script>
+    <script src="../common/js/gsap_lib/throwable.js"></script>
+
+    <!-- common scripts -->
+    <script src="../common/js/common_scripts.js"></script>
+
+    <!-- custom scripts -->
+    <script src="assets/js/inner_pages.js"></script>
+    <script src="../src/assets/js/scripts.js"></script>
+    <script src="../src/assets/js/about.js"></script>
+    <script src="../src/assets/js/contact.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+/* --------------- about pg --------------- */
+
+.about-hed {
+  background-color: #18191b;
+  .caption {
+    position: relative;
+
+    h1 {
+      span {
+        letter-spacing: normal;
+      }
+    }
+  }
+
+  .main-marq {
+    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    .item {
+      padding: 0 50px !important;
+    }
+
+    h2 {
+      span {
+        font-size: 10vw;
+        font-weight: 700;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .fit-img {
+    height: 540px;
+  }
+}
+
+.services-dm {
+  position: relative;
+  z-index: 3;
+
+  .img-patern {
+    position: absolute;
+    bottom: 10%;
+    left: -15%;
+    width: 30%;
+    filter: invert(1);
+    opacity: 0.07;
+    z-index: -1;
+  }
+
+  .item {
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition: all 0.4s;
+
+    &:last-of-type {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .title {
+      h2 {
+        font-size: 100px;
+        letter-spacing: -4px;
+      }
+    }
+
+    p {
+      opacity: 0;
+      transition: all 0.4s;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      margin-left: 150px;
+
+      img {
+        width: 30px;
+      }
+    }
+
+    &:hover {
+      .title {
+        margin-bottom: 0;
+        color: #d0ff71;
+      }
+
+      p {
+        opacity: 1;
+      }
+    }
+  }
+}
+.sec-head {
+  .sub-head {
+    position: relative;
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: 300;
+
+    &:after {
+      content: "";
+      width: 7px;
+      height: 7px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 10px;
+      left: 0;
+    }
+  }
+}
+
+/* --------------- About Testimonial --------------- */
+
+.about-ma {
+  background-color: #181818;
+  background-size: cover;
+  display: flex;
+  padding-top: 40px;
+  .bg-img {
+    height: 100vh;
+    width: 50vw;
+  }
+  .sec-head {
+    .sub-head {
+      position: relative;
+      padding-left: 25px;
+      font-size: 20px;
+      font-weight: 500;
+
+      &:after {
+        content: "";
+        width: 7px;
+        height: 7px;
+        background: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 0;
+      }
+    }
+  }
+
+  .content {
+    padding: 60px 60px 0;
+    width: 50vw;
+
+    .item {
+      margin-top: 200px;
+
+      .botm {
+        h2 {
+          font-size: 100px;
+          font-weight: 600;
+          line-height: 1;
+          opacity: 0.1;
+
+          strong {
+            font-size: 80px;
+          }
+        }
+
+        h6 {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 1.6;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          padding-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 992px) {
+  .about-ma .sec-head .sub-head {
+    margin-left: 15px;
+  }
+  // .about-ma .sec-head .d-flex {
+  //   display: flex;
+  // }
+  .about-ma {
+    display: block !important;
+  }
+  .about-ma .content {
+    width: 100%;
+    padding: 0 15px !important;
+
+    .item {
+      margin-top: 140px;
+    }
+    .item {
+      .percent-botm {
+        padding-bottom: 20px;
+        .fix-percent {
+          font-size: 100px;
+          font-weight: 600;
+          line-height: 1;
+          opacity: 0.1;
+
+          strong {
+            font-size: 80px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sec-head {
+    h3 {
+      font-size: 28px;
+      line-height: 1.4;
+      letter-spacing: -1px;
+    }
+  }
+    .about-ma .content {
+    width: 100%;
+    padding: 0 15px !important;
+
+    .item {
+      margin-top: 140px;
+    }
+    .item {
+      .percent-botm {
+        gap: 70px;
+        padding-bottom: 15px;
+        .fix-percent {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          font-size: 82px;
+          font-weight: 600;
+          line-height: 1;
+          opacity: 0.1;
+
+          strong {
+            font-size: 65px;
+          }
+        }
+      }
+    }
+  }
+}

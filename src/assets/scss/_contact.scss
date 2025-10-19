@@ -1,0 +1,88 @@
+/* --------------- Contact --------------- */
+
+.contact-us {
+    background-color: #18191B;
+    padding: 60px 0;
+  .contact-sa {
+    .box {
+      padding: 120px 60px;
+      background-image: url(../imgs/gr-back.png);
+      background-size: cover;
+      background-position: center center;
+      border-radius: 30px;
+      overflow: hidden;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 80%;
+      .sec-head{
+        h4{
+          font-size: 36px;
+        }
+      }
+    }
+
+    .contact-form {
+      label {
+        font-size: 14px;
+        margin-bottom: 5px;
+
+        .star {
+          color: red;
+          padding-left: 5px;
+        }
+      }
+
+      input,
+      textarea {
+        color: #fff;
+        background: transparent;
+        width: 100%;
+        padding: 0 0 10px;
+        border: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        font-size: 18px;
+      }
+
+      button {
+        background: transparent;
+        color: #fff;
+      }
+    }
+  }
+}
+@media (max-width:375px) {
+  .contact-us{
+    .contact-sa{
+      .box{
+        padding: 120px 30px;
+      }
+      .info{
+        .sec-head{
+          h4{
+            font-size: 32px;
+          }
+        }
+      }
+    }
+  }
+  }
+  
+  @media (max-width:320px) {
+    .contact-us{
+      .contact-sa{
+        .info{
+          .sec-head{
+            h4{
+              font-size: 31px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+    
